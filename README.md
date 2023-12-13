@@ -7,7 +7,7 @@ This folder contains implementations and scripts for the NeurIPS 2023 paper "[La
 
 ## Usage
 
-### installation 
+### Installation 
 
 ```
 pip install transformers==4.14.1
@@ -16,20 +16,8 @@ pip install fire
 pip install code-tokenize
 ```
 
-### Prepare datasets
-The buggy-HumanEval and buggy-Fixeval datasets should be put in the `data` folder, with the structure:
-```
-humaneval/
-    problems/
-        humaneval_large_instances.jsonl.gz
-        HumanEval.jsonl.gz
-fixeval/
-    problems/
-        fixeval_large_instances.jsonl.gz
-        fixevalA_large_problems.jsonl.gz   
-    atcoder_test_cases 
-```
-Note that atcoder_test_cases could be downloaded from this [link](https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAAYlTq2tiEHl5hsESw6-yfLa?dl=0).
+### Datasets
+See instructions for [buggy-HumanEval](./data/humaneval/) and [buggy-FixEval](./data/fixeval) datasets under the `data` folder.
 
 ### Source codes 
 All source codes are stored in the ```src/``` folder
